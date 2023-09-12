@@ -1,10 +1,11 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
- * main - entry point 
+ * main - Entry point
  *
- * discreption - c program thatt print in put function 
- * return allways 0 
- */
+ * Discription: A C program that prints with put function
+ *
+ * Return: Always 0 (Success)
+*/
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
