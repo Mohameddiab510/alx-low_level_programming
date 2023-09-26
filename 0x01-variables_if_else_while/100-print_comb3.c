@@ -6,7 +6,7 @@
  * Descripion: print all possible different
  *		combinations of two digits.
  *
- * return: Always 0 (Success)
+ * Return: Always 0 (Success)
 */
 
 int main(void)
