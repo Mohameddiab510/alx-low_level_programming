@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * *_memset - fills memory with a constant byte.
- * @s: pointer to put the constant
- * @b: constant
- * @a: max bytes to use
- * Return: pointer
+ * _strchr - entry point
+ * @s: input
+ * @c: input
+ * Return: Always 0 (Success)
 */
 
 char *_strchr(char *s, char c)
@@ -16,7 +15,7 @@ char *_strchr(char *s, char c)
 	{
 		if (s[itr] == c)
 		{
-			return (s+ itr);
+			return (s + itr);
 		}
 	}
 
