@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * *_memset - fills memory with a constant byte
- * @s: pointer to put the constant
- * @b: constant
+ * set_string - sets the value of a pointer to a char
+ * @s: pointer to pointer
+ * @to: pointer char
 */
 
 void set_string(char **s, char *to)
